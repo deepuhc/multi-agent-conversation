@@ -64,18 +64,6 @@ Topic History:
 Run unit tests to verify functionality:
 python -m unittest tests/test_multiagent.py -v
 
-Project Structure
-multi-agent-conversation/
-├── src/
-│   ├── MultiAgentConversation.py  # Core conversation logic
-│   └── utils.py                  # Utility functions for API key retrieval
-├── tests/
-│   └── test_multiagent.py        # Unit tests
-├── config.yaml                   # Agent configuration
-├── requirements.txt              # Dependencies
-├── .gitignore                    # Git ignore rules
-├── LICENSE                       # MIT License
-├── README.md                     # This file
 
 Configuration
 Edit config.yaml to customize agents:
